@@ -15,7 +15,7 @@ interface EmbedScriptGeneratorProps {
 
 export function EmbedScriptGenerator({
   userCode,
-  baseUrl = "https://tellus.abhinavdev.in.net",
+  baseUrl = "https://tellus-omega.vercel.app",
 }: EmbedScriptGeneratorProps) {
   const [copyConfirmation, setCopyConfirmation] = useState<string | null>(null)
   const [selectedTheme, setSelectedTheme] = useState("dark")
