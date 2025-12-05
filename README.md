@@ -3,7 +3,7 @@
 The Pulse of Customer Experience - Empower your business with real-time customer insights and drive continuous improvement through meaningful feedback.
 
 
-[Website](https://tellus.abhiramverse.tech)
+[Website](https://tellus.abhinavdev.in.net)
 
 ### Tech Stack
 
@@ -72,11 +72,11 @@ To embed testimonials on your website:
 2. Paste it into your website's HTML where you want the testimonials to appear:
    
    ```html
-   <iframe src="https://tellus.abhiramverse.tech/embed/830532" height="500px" width="1000px"></iframe>
+   <iframe src="https://tellus.abhinavdev.in.net/embed/830532" height="500px" width="1000px"></iframe>
    ```
 3. Preview your embedded testimonials at:
    ```
-   https://tellus.abhiramverse.tech/embed/YOUR_CODE
+   https://tellus.abhinavdev.in.net/embed/YOUR_CODE
    ```
 
 

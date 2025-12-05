@@ -125,13 +125,13 @@ export function DashboardClient({ feedbackUrl, feedback, userCode }: DashboardCl
             <TabsContent value="iframe" className="space-y-4">
               <div className="bg-background/50 p-4 rounded-md border">
                 <code className="text-sm break-all font-mono text-foreground">
-                  {`<iframe src="${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/embed/${userCode}" width="100%" height="500" frameborder="0"></iframe>`}
+                  {`<iframe src="${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/embed/${userCode}" width="100%" height="500" frameborder="0"></iframe>`}
                 </code>
               </div>
               <Button
                 onClick={() =>
                   handleCopy(
-                    `<iframe src="${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/embed/${userCode}" width="100%" height="500" frameborder="0"></iframe>`,
+                    `<iframe src="${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/embed/${userCode}" width="100%" height="500" frameborder="0"></iframe>`,
                     "iframe",
                   )
                 }
@@ -145,13 +145,13 @@ export function DashboardClient({ feedbackUrl, feedback, userCode }: DashboardCl
             <TabsContent value="script" className="space-y-4">
               <div className="bg-background/50 p-4 rounded-md border">
                 <code className="text-sm break-all font-mono text-foreground">
-                  {`<script src="${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/embed.js" data-code="${userCode}"></script>`}
+                  {`<script src="${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/embed.js" data-code="${userCode}"></script>`}
                 </code>
               </div>
               <Button
                 onClick={() =>
                   handleCopy(
-                    `<script src="${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/embed.js" data-code="${userCode}"></script>`,
+                    `<script src="${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/embed.js" data-code="${userCode}"></script>`,
                     "script",
                   )
                 }
@@ -165,13 +165,13 @@ export function DashboardClient({ feedbackUrl, feedback, userCode }: DashboardCl
             <TabsContent value="api" className="space-y-4">
               <div className="bg-background/50 p-4 rounded-md border">
                 <code className="text-sm break-all font-mono text-foreground">
-                  {`GET ${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/api/testimonials/${userCode}`}
+                  {`GET ${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/api/testimonials/${userCode}`}
                 </code>
               </div>
               <Button
                 onClick={() =>
                   handleCopy(
-                    `${process.env.NEXTAUTH_URL || "https://tellus.abhiramverse.tech"}/api/testimonials/${userCode}`,
+                    `${process.env.NEXTAUTH_URL || "https://tellus.abhinavdev.in.net"}/api/testimonials/${userCode}`,
                     "api",
                   )
                 }
